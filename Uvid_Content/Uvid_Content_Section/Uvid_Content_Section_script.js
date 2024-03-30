@@ -88,6 +88,7 @@
         ctntLinks.forEach(ctntLink => {
             ctntLink.draggable = false;
             ctntLink.style.userSelect = "none";
+            ctntLink.href = "/Uvid_Content/Uvid_Content_Section/U_Anime/Another.html";
         });
         showCards.forEach(showCard => {
             const showCardInfoName = showCard.querySelector('.cardinfo h3');

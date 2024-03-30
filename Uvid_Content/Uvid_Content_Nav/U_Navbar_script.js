@@ -137,7 +137,7 @@
                 actionFrame.classList.add('fa-xmark');
                 actionFrameBdr.classList.add('bdr-atv');
                 actionPage = document.createElement('iframe');
-                actionPage.src = "../../Uvid_Actions.html";
+                actionPage.src = "/Uvid_Actions.html";
                 actionPage.classList.add('action-pg-atv');
                 actionFrameBdr.appendChild(actionPage);
                 document.body.classList.add('bodystop');

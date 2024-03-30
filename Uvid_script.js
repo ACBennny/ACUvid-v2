@@ -1144,19 +1144,19 @@ function opengates() {
             // open TV
             let section1 = document.querySelector('.sect1'); 
             section1.onclick = () => {
-                window.open(URL="Uvid-content/Uvid-TV.html", target="_top");
+                window.open(URL="Uvid_content/Uvid_Anime.html", target="_top");
             }
     
             // open MOVIES
             let section2 = document.querySelector('.sect2');
             section2.onclick = () => {
-                window.open(URL="Uvid-content/Uvid-Movies.html", target="_top");
+                window.open(URL="Uvid_content/Uvid_Anime.html", target="_top");
             }
     
             // open DOCUMENTARIES
             let section3 = document.querySelector('.sect3');
             section3.onclick = () => {
-                window.open(URL="Uvid_content/Uvid_Documentary.html", target="_top");
+                window.open(URL="Uvid_content/Uvid_Anime.html", target="_top");
             }
     
             // open ANIME
@@ -1168,19 +1168,13 @@ function opengates() {
             // open CARTOON
             let section5 = document.querySelector('.sect5');
             section5.onclick = () => {
-                window.open(URL="Uvid_content/Uvid_Cartoon.html", target="_top");
+                window.open(URL="Uvid_content/Uvid_Anime.html", target="_top");
             }
     
             // open NEWS
             let section6 = document.querySelector('.sect6');
             section6.onclick = () => {
-                window.open(URL="Uvid_content/Uvid_News.html", target="_top");
-            }
-    
-            // open UPCOMING
-            let section7 = document.querySelector('.sect7');
-            section7.onclick = () => {
-                openPageFrame("Uvid_Premium.html");
+                window.open(URL="Uvid_content/Uvid_Anime.html", target="_top");
             }
     
 

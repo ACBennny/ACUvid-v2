@@ -6,8 +6,6 @@
  *************************************************************/
 
 
-document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
-
 
 // This is for Preloader
 
@@ -17,7 +15,6 @@ document.oncontextmenu = document.body.oncontextmenu = function() {return false;
     window.addEventListener("load", () => {
         preload.style.display = "none";
         document.body.classList.add('bodystart');
-        document.oncontextmenu = document.body.oncontextmenu = function() {return true;}
     });
 
 
@@ -25,42 +22,18 @@ document.oncontextmenu = document.body.oncontextmenu = function() {return false;
     const AllImg = document.querySelectorAll('img');
     // Prevents the user from downloading the pictures
     AllImg.forEach(eachImg => {
-        // eachImg.draggable = false;
-        // eachImg.addEventListener("mouseover" , () => {
-        //     document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
-        // });
-        // eachImg.addEventListener("mouseleave" , () => {
-        //     document.oncontextmenu = document.body.oncontextmenu = function() {return true;}
-        // });
+        eachImg.draggable = false;
     });
+
 
     // For All links
     const allLinks = document.querySelectorAll("a");
     allLinks.forEach(link => {
         // Sets rel to "no-referrer" if it hasn't been set.
-            if(link.rel.valueOf() == "")
-            {
-                link.rel = "no-referrer";
-            }
-        // hide link display
-            //a variable to hold the original link
-            let currentLink = link.href;
-
-            // this will remove the link when poitner is over the element
-            link.addEventListener("mouseover" , () => {
-                link.href = "";
-                link.removeAttribute("href");
-                
-                //  Opens the individual link in a new tab
-                link.addEventListener("click" , () => {
-                    link.href = currentLink;
-                });
-            });
-            
-            // This will add the link when poitner is out of the element
-            link.addEventListener("mouseleave" , () => {
-                link.href = currentLink;
-            });
+        if(link.rel.valueOf() == "")
+        {
+            link.rel = "no-referrer";
+        }
     });
 
 

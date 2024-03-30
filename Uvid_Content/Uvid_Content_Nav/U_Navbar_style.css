@@ -1,0 +1,171 @@
+
+
+/* -------------NAVBAR-------------- */
+
+.navBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+}
+.navbar{
+    padding: 0 10px;
+    width: 100%;
+    height: 70px;
+    background-color: #2f2e2e91;
+    display: flex;
+    justify-content: space-between;
+    transition: 700ms;
+    position: relative;
+}
+
+/* .floating{
+    position: fixed;
+    left: 0;
+    top: 0;
+} */
+.give_space{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.logo .lhead{
+    font-size: 25px;
+    color: #14d60d;
+}
+
+.logo .lname{
+    font-size: 20px;
+    color: #fff;
+}
+
+.headname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headname h1 .hd1{
+    font-size: 23px;
+    color: #e7e7e7;
+}
+
+.headname h1 .hd2{
+    font-size: 18px;
+    color: #14d60d;
+}
+
+.icnsets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+
+.icnsets .baroff{
+    display: none;
+}
+
+.navbar i{
+    color: #e7e7e7;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 0px 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.navbar i:hover{
+    color: #14d60d;
+}
+
+.navbar .baron{
+    display: none;
+    align-self: center;
+}
+
+.navbar.darkenNavBar{
+    background-color: #2f2e2e;
+}
+
+.icnopener{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+/*  ================ RESPONSIVE ================== */
+
+@media only screen and (max-width: 884px)
+{
+    .icnsets{
+        display: none;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: translateY(100%);
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .navbar .baron{
+        display: flex;
+    }
+
+    .ctnt-slide-box{
+        height: 65px;
+    }
+
+    .menicnatv{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2f2e2e91;
+        z-index: 1000;
+    }
+}
+
+
+@media only screen and (max-width: 565px)
+{
+    .logo1{
+        display: none;
+    }
+
+    .icnsets .baroff{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

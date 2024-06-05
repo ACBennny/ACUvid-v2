@@ -203,7 +203,7 @@ function opengates() {
             // Validation for Password
 
                 function validateNewPassword(event) {
-                    passwordArray.push(signUp_new_password.value);
+                    passwordArray.push(upass.value);
                     let lastPassArrayVal = passwordArray.at(-1);
                     const userPass_Cond_SpecialChar = /\W/g;
                     const userPass_Cond_num = /\d/g;

@@ -25,7 +25,7 @@
             search_image: '../Uvid_Content_Section/U_Anime/U_Anime_img/1.jpg',
             search_title: 'Jujutsu Kaisen',
             search_section: 'Anime',
-            search_code: 'Jijutsu Kaisen sorcery fight anime shows animation',
+            search_code: 'Jujutsu Kaisen sorcery fight anime shows animation',
         },
         {
             id: 1,

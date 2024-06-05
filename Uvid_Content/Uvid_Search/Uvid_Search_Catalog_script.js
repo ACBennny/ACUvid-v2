@@ -21,7 +21,7 @@
     [
         {
             id: 0,
-            search_link: '../Uvid_Content_Section/U_Anime/JujutsuKaisen.html',
+            search_link: '../Uvid_Content_Section/U_Anime/Another.html',
             search_image: '../Uvid_Content_Section/U_Anime/U_Anime_img/1.jpg',
             search_title: 'Jujutsu Kaisen',
             search_section: 'Anime',
@@ -29,7 +29,7 @@
         },
         {
             id: 1,
-            search_link: '../Uvid_Content_Section/U_Anime/DemonSlayer.html',
+            search_link: '../Uvid_Content_Section/U_Anime/Another.html',
             search_image: '../Uvid_Content_Section/U_Anime/U_Anime_img/2.jpg',
             search_title: 'Demon Slayer',
             search_section: 'Anime',
@@ -37,7 +37,7 @@
         },
         {
             id: 2,
-            search_link: '../Uvid_Content_Section/U_Anime/AttackOnTitan.html',
+            search_link: '../Uvid_Content_Section/U_Anime/Another.html',
             search_image: '../Uvid_Content_Section/U_Anime/U_Anime_img/3.jpg',
             search_title: 'Attack On Titan',
             search_section: 'Anime',
@@ -45,7 +45,7 @@
         },
         {
             id: 3,
-            search_link: '../Uvid_Content_Section/U_Anime/AttackOnTitan.html',
+            search_link: '../Uvid_Content_Section/U_Anime/Another.html',
             search_image: '../Uvid_Content_Section/U_Anime/U_Anime_img/3.jpg',
             search_title: 'Attack On Titan',
             search_section: 'Anime',
@@ -53,7 +53,7 @@
         },
         {
             id: 4,
-            search_link: '../Uvid_Content_Section/U_Anime/AttackOnTitan.html',
+            search_link: '../Uvid_Content_Section/U_Anime/Another.html',
             search_image: '../Uvid_Content_Section/U_Anime/U_Anime_img/3.jpg',
             search_title: 'Attack On Titan',
             search_section: 'Anime',
@@ -61,7 +61,7 @@
         },
         {
             id: 5,
-            search_link: '../Uvid_Content_Section/U_Anime/AttackOnTitan.html',
+            search_link: '../Uvid_Content_Section/U_Anime/Another.html',
             search_image: '../Uvid_Content_Section/U_Anime/U_Anime_img/3.jpg',
             search_title: 'Attack On Titan',
             search_section: 'Anime',

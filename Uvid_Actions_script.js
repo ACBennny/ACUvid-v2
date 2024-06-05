@@ -41,7 +41,7 @@
 
 
     // This opens an iframe menu when something is clicked
-        function openPageFrame(){
+        function openPageFrame(thisPageSrc){
 
             // Creating the div element
             const pageFrameBdr = document.createElement('div');
@@ -54,7 +54,7 @@
             
             // Styling and adding attributes
             pageIframe.classList.remove('bdr-atv');
-            pageIframe.src = "Uvid-Premium.html";
+            pageIframe.src = thisPageSrc;
             pageIframe.classList.add('pageIframeClass');
 
             // designing the close button

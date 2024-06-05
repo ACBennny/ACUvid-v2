@@ -227,7 +227,7 @@ function opengates() {
                         && lastPassArrayVal.match(userPass_Cond_num)
                     ))
                     {
-                        newPassWarn.textContent = "Password must contain at keast one of a letter, number, and a special character";
+                        newPassWarn.textContent = "Password must contain at least one of a letter, number, and a special character";
                         isPassValid = false;
                     }
                     // If all checks are completed then it is accepted

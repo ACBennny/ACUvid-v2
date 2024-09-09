@@ -34,6 +34,26 @@
         {
             link.rel = "no-referrer";
         }
+
+        link.addEventListener("contextmenu" , function(e)
+        {
+            e.preventDefault();
+            link.click();
+        });
+
+        // Prevents them from being downloaded
+        let tempLink;
+        link.addEventListener("mouseenter" , () => {
+            tempLink = link.href;
+            link.href = "";
+            link.removeAttribute("href");
+        });
+        link.addEventListener("mouseleave" , () => {
+            link.href = tempLink;
+        });
+        link.addEventListener("click" , () => {
+            link.href = tempLink;
+        });
     });
 
 

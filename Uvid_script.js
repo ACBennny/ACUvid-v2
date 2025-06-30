@@ -553,23 +553,23 @@ function opengates() {
                     console.log("user = " + usrname_log.value);
                     console.log("pass = " + usrpass_log.value);
                     // This occurs if user's input is valid and the inputted values are correct
-                    if(((isUserLogValid == true) 
-                        && (isUserPassValid == true) 
-                        && (usrname_log.value == testLog_user.valueOf()) 
-                        && (usrpass_log.value == testLog_pass.valueOf())
-                    ))
-                    {
+                    // if(((isUserLogValid == true) 
+                    //     && (isUserPassValid == true) 
+                    //     && (usrname_log.value == testLog_user.valueOf()) 
+                    //     && (usrpass_log.value == testLog_pass.valueOf())
+                    // ))
+                    // {
                         logInWarn.textContent = "Logging in...";
                         // setTimeout(verification, 2500);
                         console.log("Logged In ✊");
                         valg.style.display = "flex";
                         logInBtn.style.display = "none";
-                    }
+                    // }
                     // If it is not correct, the user is required to try again
-                    else
-                    {
-                        logInWarn.textContent = "Email or Password is incorrect";
-                    }
+                    // else
+                    // {
+                    //     logInWarn.textContent = "Email or Password is incorrect";
+                    // }
                 }
 
 
@@ -712,7 +712,7 @@ function opengates() {
                 accSignUpIssueBox.style.display = "none";
             });
         
-        // Forgot PAssword
+        // Forgot Password
             // If user forgets password (alt - original text)
             let recacc = document.querySelector('.retnw');
             let reqfrm = document.querySelector('.recbase1');

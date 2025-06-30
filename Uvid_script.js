@@ -355,7 +355,7 @@ function opengates() {
                         }
                         else
                         {
-                            window.open("Uvid-tc.html" , "_blank");
+                            window.open("Uvid_tc.html" , "_blank");
                         }
                     });
                 });
@@ -548,10 +548,11 @@ function opengates() {
             let testLog_pass = "@abcd=1234";
 
                 // Checks if user's input is valid and if the inputted values correct
+                // (TEMP) ALLOW USER ENTRY ALWAYS
                 function validateLogInCreds()
                 {
-                    console.log("user = " + usrname_log.value);
-                    console.log("pass = " + usrpass_log.value);
+                    // console.log("user = " + usrname_log.value);
+                    // console.log("pass = " + usrpass_log.value);
                     // This occurs if user's input is valid and the inputted values are correct
                     // if(((isUserLogValid == true) 
                     //     && (isUserPassValid == true) 
@@ -702,12 +703,14 @@ function opengates() {
             // If user has issues with creating an account
             const accSignUpIssueBox = document.querySelector(".recbase5");
             const closeaccSignUpIssueBox = document.querySelector("#closeQuickAccGuide");
-            const accSignUpIssueBtn = document.querySelector(".acc_create_issue");
+            const accSignUpIssueBtn = document.querySelectorAll(".acc_create_issue");
 
-            accSignUpIssueBtn.addEventListener("click" , () => {
-                accSignUpIssueBox.style.display = "flex";
+            accSignUpIssueBtn.forEach((btn) => 
+            {
+                btn.addEventListener("click" , () => {
+                    accSignUpIssueBox.style.display = "flex";
+                });
             });
-
             closeaccSignUpIssueBox.addEventListener("click" , () => {
                 accSignUpIssueBox.style.display = "none";
             });

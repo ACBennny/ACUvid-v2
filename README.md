@@ -5,5 +5,5 @@
 #### Author(s): Anyanwu Benedict Chukwuemeka (https://github.com/ACBennny)
 
 #### About: 
-In this version of uvid, I'm shifting from the remaking of a flight entertainment system to simulating a streaming apps. 
+In this version of ACUvid, I'm shifting from the remaking of a flight entertainment system to simulating a streaming apps. 
 This version maintains a similar structure to its predecessor while making few tweaks and adding new features to resemble that of other streaming apps.

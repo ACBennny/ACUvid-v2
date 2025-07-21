@@ -1,6 +1,6 @@
-#### App Name: UvidOld
+#### App Name: ACUvid-v2
 
-#### Demo: https://uvid-v2.netlify.app
+#### Demo: https://acuvid-v2.netlify.app
 
 #### Author(s): Anyanwu Benedict Chukwuemeka (https://github.com/ACBennny)
 

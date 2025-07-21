@@ -1,7 +1,9 @@
-# UvidOld
- This is the first version of uvid a streaming site (A newer version is being worked on)
- You can still see this one to compare changes in the newer one.
+#### App Name: UvidOld
 
-Name: UvidOld
+#### Demo: https://uvidold.netlify.app
 
-Author: Anyanwu Benedict Chukwuemeka
+#### Author(s): Anyanwu Benedict Chukwuemeka (https://github.com/ACBennny)
+
+#### About: 
+In this version of uvid, I'm shifting from the remaking of a flight entertainment system to simulating a streaming apps. 
+This version maintains a similar structure to its predecessor while making few tweaks and adding new features to resemble that of other streaming apps.

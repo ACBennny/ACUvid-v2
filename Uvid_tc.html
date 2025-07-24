@@ -91,15 +91,15 @@
 
 
         <!-- script -->
-        <script src="Uvid-fontscript.js"></script>
+        <script src="Uvid_fontscript.js"></script>
         <script>
             // if user wishes to  download of a copy of the terms and conditions
                 const Dwnld_here = document.querySelector('.dwldtchere');
                 const tc_Dwnld = document.createElement('a');
 
                 Dwnld_here.addEventListener("click" , () => {
-                    tc_Dwnld.href="Uvid-tc-dwld.pdf";
-                    tc_Dwnld.download="Uvid-tc-dwld.pdf";
+                    tc_Dwnld.href="Uvid_tc_dwld.pdf";
+                    tc_Dwnld.download="Uvid_tc_dwld.pdf";
                     document.body.appendChild(tc_Dwnld);
                     tc_Dwnld.click();
                     document.body.removeChild(tc_Dwnld);
